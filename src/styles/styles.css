@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+.flexslider{
+    display:flex;
+}
+
+.flexslider-right{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    padding-top: 4.5em;
+    width: 45%;
+    margin-left: 20px;
+}
+
+.txt-cta-title{
+    font-family: "Crimson Text";
+    margin: 0 0 .67em;
+    font-size: 4rem;
+    line-height: 1.3;
+    color: #0d83dd;
+}
+
+.txt-cta-para{
+    font-size: 1.8rem;
+    line-height: 1.55555556;
+    margin-bottom: 25px;
+}
+
+.btn-cta-primary {
+    display: inline-block;
+    padding: 18px 35px;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #85c525;
+    text-align: center;
+}
+
+.txt-cta-alert{
+    font-family: "Berkshire Swash";
+    font-size: 2rem;
+    line-height: 1.3;
+    color: #0d83dd;
+    margin-left:1em;
+}
+
+.txt-cta-small{
+    font-size: 70%;
+    margin-left:0.6em;
+}
+
+.logo{
+    font-family: "Patrick Hand";
+	font-size: 32px !important;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
